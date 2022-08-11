@@ -10,7 +10,6 @@ func display() {
 	for {
 		fmt.Println("======> 这是go协程", count)
 		count++
-		time.Sleep(1 * time.Second)
 	}
 }
 
